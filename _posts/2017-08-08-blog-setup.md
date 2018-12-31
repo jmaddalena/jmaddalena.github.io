@@ -1,13 +1,11 @@
 ---
 title: "Setting Up a Blog using Blogdown"
 author: "Julia Maddalena"
-date: 2017-08-08T21:13:14-05:00
+date: 2018-12-31
 categories: ["R"]
 tags: ["Blog", "Hugo", "Github"]
 output: md_document
 ---
-
-# Introduction
 
 For this blog, I decided to go with Jekyll and to use `.md` files. This was very easy as I only had to fork an already organized repo from `barryclark/jekyll-now` that had a theme that I liked. However, at work I wanted to set up a blog using RStudio's `blogdown` which uses Hugo, even though the upfront setup time takes longer. I was particularly interested in this methodology because it allowed be to simply convert my R Notebook's into blog posts, without having to save plots (and hope I got them right the first time!) and refer to the location of the png files. 
 
