@@ -35,7 +35,7 @@ While Amber's blog was enormously helpful, I felt it was the more difficult appr
 
 The [next blog post](https://tclavelle.github.io/blog/blogdown_github/) I read detailed the two-repository method, which I found much more graceful to work with. The following is a summary of the steps you would need to take to build a blog in the same fashion:
 
-1. Set up a `blog_setup` and a `blog` repository on Github. Clone the repos to the `~/src` directory on your machine. Make sure to set up Github Pages on your `blog` repository through the `Settings` tab.
+1. Set up a `blog_setup` and a `blog` repository on Github. Clone the repos to a directory on your machine. Make sure to set up Github Pages on your `blog` repository through the `Settings` tab.
 
 2. Create an R project within the `blog_setup` directory of your local machine. Open it, install the development version of _blogdown_ using `devtools::install_github('rstudio/blogdown')`, and load the library. Then use the `new_site()` function to populate your `blog_setup` folder with the necessary files and folders. 
 
@@ -43,8 +43,8 @@ The [next blog post](https://tclavelle.github.io/blog/blogdown_github/) I read d
 `install_theme("nilproductions/hugo-bootswatch", theme_example = T, update_config = T)`. This will update your site files to adopt your chosen theme. Note: I didn't have much success "switching" between themes. It seems _blogdown_ can handle it, but the `config.toml` file adapts components of both themes which didn't help when I had the overly complex `config.toml` from the Bootstrap Premium theme. 
 
 4. Edit your `config.toml` file. 
-    * Change the baseurl to `"https://github.comverge.com/pages/[your name]/blog/"` (where [your_name] is your first initial last name, e.g. jmaddalena)
-    * Change the publishDir to something like `"/Users/jmaddalena/src/blog"`. __Using the "~/" shortcut does not work properly!!__
+    * Change the baseurl to the site you are publishing to. For me at work, this was `"https://github.comverge.com/pages/jmaddalena/blog/"` 
+    * Change the publishDir to your `blog` repo. __Using the "~/" shortcut does not work properly!!__
 
 5. To build the site and send the contents of your `public/` folder to your `blog` directory, run `build_site()` within your R project. You can also run `serve_site()` to preview the site within R. If `build_site()` is ran first, `serve_site()` will be fairly quick to show the results of the build. However if `serve_site()` is ran first, `build_site()` still has to compile everything on its own. 
 
@@ -96,7 +96,7 @@ If your post includes math formulas using LaTeX syntax, e.g. $\frac{-b + \sqrt{b
 
 ### Custom Summary
 
-By default, Hugo uses the first 70 characters of a post to show as the summary of the content of each blog post. This rarely creates a good summary, as it combines the first 70 characters whether or not they are headers, table of contents, or other undesired text that begins the post. [This post](https://gohugo.io/content-management/summaries/) claims to be the solution to setting user-defined summary breaks in the content, but their solution only worked for the `.Md` files, not for the `.Rmd` files. To allow for a custom summary in my `.Rmd` files, I had to add a `summary:` taxonomy to the YAML of each post that I wanted to override Hugo's default summary. In addition, to tell Hugo to use this summary if present in a post, I had to edit the `~/src/blog_setup/themes/hugo-bootswatch/layouts/index.html` file as follows:
+By default, Hugo uses the first 70 characters of a post to show as the summary of the content of each blog post. This rarely creates a good summary, as it combines the first 70 characters whether or not they are headers, table of contents, or other undesired text that begins the post. [This post](https://gohugo.io/content-management/summaries/) claims to be the solution to setting user-defined summary breaks in the content, but their solution only worked for the `.Md` files, not for the `.Rmd` files. To allow for a custom summary in my `.Rmd` files, I had to add a `summary:` taxonomy to the YAML of each post that I wanted to override Hugo's default summary. In addition, to tell Hugo to use this summary if present in a post, I had to edit the `blog_setup/themes/hugo-bootswatch/layouts/index.html` file as follows:
 
 Replace `<p>{{.Summary }}</p>` with `<p>{{ if .Params.summary }} {{ .Params.summary }} {{ else }} {{.Summary }}{{ end }}</p>` as described as a cumbersome solution [here](https://github.com/gohugoio/hugo/issues/1634). 
 
