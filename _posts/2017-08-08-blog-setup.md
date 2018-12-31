@@ -17,7 +17,7 @@ Because there are many sources devoted to describing how to use _blogdown_ to ge
 
 ## Setup
 
-My first attempt to set up a blog utilized [this blog post] (https://proquestionasker.github.io/blog/Making_Site/). This blogger went the first of two potential avenues to integrate Hugo with Github Pages:
+My first attempt to set up a blog utilized [this blog post](https://proquestionasker.github.io/blog/Making_Site/). This blogger went the first of two potential avenues to integrate Hugo with Github Pages:
 
 1. Have one repository with a default branch named `sources` and a `master` branch that only contains the content of the `public/` folder, the only files Hugo will allow to generate the blog. 
 
