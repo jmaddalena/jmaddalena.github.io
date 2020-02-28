@@ -7,7 +7,7 @@ tags: ["Blog", "Hugo", "Github"]
 output: md_document
 ---
 
-For this blog you are reading now, I decided to go with Jekyll and to use `.md` files. This was very easy as I only had to fork an already organized repo from `barryclark/jekyll-now` that had a theme that I liked. However, at work I wanted to set up a blog using RStudio's `blogdown` which uses Hugo, even though the upfront setup time takes longer. I was particularly interested in this methodology because it allowed be to simply convert my R Notebook's into blog posts, without having to save plots (and hope I got them right the first time!) and refer to the location of the png files. 
+For this blog you are reading now, I decided to go with Jekyll and to use `.md` files. This was very easy as I only had to fork an already organized repo from `barryclark/jekyll-now` that had a theme that I liked. However, at work I wanted to set up a blog using RStudio's `blogdown` which uses Hugo, even though the upfront setup time takes longer. I was particularly interested in this methodology because it allowed me to simply convert my R Notebooks into blog posts, without having to save (and probably re-save plots) and refer to the location of the png files. 
 
 The _blogdown_ package utilizes Hugo for blog generation, as opposed to Jekyll. However, the creater of _blogdown_ claims that migrating a blog from Jekyll to Hugo is as simple as finding a new theme and updating the YAML metadata. Perhaps I will switch this blog over to Hugo if I decide I really want to be able to reproduce plots with ease.
 
