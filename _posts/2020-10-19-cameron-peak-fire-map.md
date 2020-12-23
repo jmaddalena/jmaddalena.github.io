@@ -7,7 +7,6 @@ tags: ["Blog", "Hugo", "Github"]
 output: md_document
 ---
 
-# Introduction
 
 During a particular dry summer, a fire of unknown origin began burning on August 13, 2020 near Chambers Lake, Colorado, roughly 60 miles from my house. It quickly became the largest wildfire in Colorado history, burning a total of 208,663 acres (236 square miles) before being fully contained on December 3. While we didn't always notice the fire, on some days the sky turned dark orange, ash and burned pine needles rained from the sky, and very little time could be spent outside. 
 
