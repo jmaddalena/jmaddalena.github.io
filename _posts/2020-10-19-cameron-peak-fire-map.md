@@ -1,7 +1,7 @@
 ---
 title: "Animation of the Cameron Peak fire"
 author: "Julia Maddalena"
-date: 2019-05-30
+date: 2020-10-20
 categories: ["R"]
 tags: ["Blog", "Hugo", "Github"]
 output: md_document
