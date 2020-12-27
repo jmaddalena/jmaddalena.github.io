@@ -1,5 +1,5 @@
 ---
-title: "Setting Up a Blog using Blogdown"
+title: "Setting up a blog using blogdown"
 author: "Julia Maddalena"
 date: 2018-12-31
 categories: ["R"]
