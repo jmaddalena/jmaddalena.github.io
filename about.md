@@ -14,19 +14,12 @@ Lately, I have been hungering to put my data science skills to work for the grea
 
 During my free time, I enjoy hiking, rock climbing, meditation, yoga, reading, gardening, cooking, sewing, watercoloring, playing piano and ukulele, and spending time with my family and friends. I am always striving to improve myself and constantly eager to learn new things, something that shapes a large part of my personality!
 
-### More Information
+### Contact
 
-Feel free to reach out to me with any comments or questions.
+Feel free to reach out to me any time with comments or questions.
 
-### Contact me
+[Email](mailto:julia.maddalena@gmail.com)
 
-[julia.maddalena@gmail.com](mailto:julia.maddalena@gmail.com)
+[Github](https://github.com/jmaddalena)
 
-### Github
-
-[jmaddalena](https://github.com/jmaddalena)
-
-
-### LinkedIn
-
-[jmaddalena](https://github.com/jmaddalena)
+[LinkedIn](https://www.linkedin.com/in/julia-maddalena-8739693a/)
