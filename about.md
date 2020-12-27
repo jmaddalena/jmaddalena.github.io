@@ -12,7 +12,7 @@ Upon returning home to Denver in 2015, I began working as a statistician and enj
 
 Lately, I have been hungering to put my data science skills to work for the greater good, ideally working towards the mitatigation of climate change or other environmental or sustainability causes. 
 
-During my free time, I enjoy hiking, rock climbing, meditation, yoga, reading, cooking, sewing, watercoloring, playing piano and ukulele, and spending time with my family and friends. I am always striving to improve myself and constantly eager to learn new things, something that shapes a large part of my personality!
+During my free time, I enjoy hiking, rock climbing, meditation, yoga, reading, gardening, cooking, sewing, watercoloring, playing piano and ukulele, and spending time with my family and friends. I am always striving to improve myself and constantly eager to learn new things, something that shapes a large part of my personality!
 
 ### More Information
 
