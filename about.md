@@ -25,3 +25,8 @@ Feel free to reach out to me with any comments or questions.
 ### Github
 
 [jmaddalena](https://github.com/jmaddalena)
+
+
+### LinkedIn
+
+[jmaddalena](https://github.com/jmaddalena)
