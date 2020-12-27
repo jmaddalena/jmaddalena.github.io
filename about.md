@@ -21,3 +21,7 @@ Feel free to reach out to me with any comments or questions.
 ### Contact me
 
 [julia.maddalena@gmail.com](mailto:julia.maddalena@gmail.com)
+
+### Github
+
+[jmaddalena](https://github.com/jmaddalena)
