@@ -8,7 +8,6 @@ output: md_document
 mathjax: true
 ---
 
-
 This blog post describes the methodology to estimate solar power
 generation by all controlled premises with solar panels within a specific utility. Using this utility’s latitude and longitude, along with date and time, we can obtain reasonable forecasts of clear sky GHI, a measure of solar irradiance. In conjunction with cloud cover and the number of controlled premises with solar systems, we can use the following formula to create an estimate of solar generation:
 
