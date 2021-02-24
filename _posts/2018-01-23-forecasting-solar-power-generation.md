@@ -17,7 +17,7 @@ utility. Using a utility’s latitude and longitude, along with date and
 time, we can obtain reasonable forecasts of clear sky GHI, a measure of solar irradiance. In conjunction with cloud cover and the number of
 controlled premises with solar systems, we can use the following formula to create an estimate of solar generation:
 
-\\[ Generation(kW)=units⋅5kW⋅\frac{GHI_{clearsky}(W/m2)}{1000(W/m2)}⋅[1−0.8⋅cloudCover] \\]
+$$Generation(kW)=units⋅5kW⋅\frac{GHI_{clearsky}(W/m2)}{1000(W/m2)}⋅[1−0.8⋅cloudCover]$$
 
 Further explanation and pitfalls of this model are explored and
 discussed later in this post.
@@ -130,7 +130,7 @@ We only examine correlation for the hours between sunrise and sunset
 (when solar zenith angle < 90 degrees). The following plots show the
 relationship between estimated GHI (after incorporating cloud cover) and observed GHI, colored by hour of day and month of year:
 
-{% include image.html url="/images/solar_image4.png"}
+{% include image.html url="/images/solar_image4.png" %}
 
 *Figure 1: Scatter plots of forecasted versus true GHI, colored by time of day and month of year* 
 
