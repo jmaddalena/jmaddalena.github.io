@@ -5,7 +5,7 @@ date: 2018-01-01
 categories: ["R"]
 tags: ["Blog", "Hugo", "Github"]
 output: md_document
-usemathjax: true
+mathjax: true
 ---
 
 
