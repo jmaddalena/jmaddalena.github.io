@@ -86,5 +86,3 @@ exclude:
   - README.md
   - CNAME
 
-# Build settings:
-  markdown: kramdown
