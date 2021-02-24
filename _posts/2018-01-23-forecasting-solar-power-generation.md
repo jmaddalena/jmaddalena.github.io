@@ -8,7 +8,6 @@ output: md_document
 usemathjax: true
 ---
 
-NOTE: This blog is pulled from my professional portfolio during my time working for Itron. Utility names have been masked. 
 
 # Executive Summary
 
@@ -144,7 +143,7 @@ According to the documentation for the NSRDB, many additional factors
 are incorporated to the PSM which we are not able to account for with
 the Very Simple Clear Sky models:
 
-<font size="-3">
+<font size="-1">
 > PSM uses a two-step process where cloud properties are retrieved using the adapted PATMOS-X model, which are then used as inputs to REST2 for clear sky and FARMS for cloudy sky radiation calculations. REST2 calculates both DNI and GHI. FARMS calculates GHI, and the DISC model is then used to calculate DNI. Aerosol properties are estimated using MODIS, MISR, and AERONET products. Water vapor is obtained from NASA MERRA. Additional meteorological parameters are also derived from MERRA.
 </font>
 
@@ -161,15 +160,13 @@ following boxplots, it appears within all the categories of cloud type
 except for “fog”, at least half of the observations were identified as
 0% cloud cover from Dark Sky.
 
-{% include image.html url="/images/solar_image6.png" 
-description= "Figure 3: Boxplots of cloud cover (Dark Sky) by cloud type (NSRDB)" %}
+{% include image.html url="/images/solar_image6.png" description= "Figure 3: Boxplots of cloud cover (Dark Sky) by cloud type (NSRDB)" %}
 
 Reliability of Cloud Cover Forecasts The following histogram shows the
 distribution of hourly cloud cover observations in 2015 for our city
 as provided by Dark Sky:
 
-{% include image.html url="/images/solar_image7.png" 
-description= "Figure 4: Histogram of Dark Sky cloud cover observations in 2015" %}
+{% include image.html url="/images/solar_image7.png" description= "Figure 4: Histogram of Dark Sky cloud cover observations in 2015" %}
 
 Because so few hours (1.2%) are reported with cloud cover &gt; 0.5 and
 because we see a value of 0.31 reported an artificially high proportion of the time (8.1%), it seems Dark Sky’s historical observations may not have been reliable in 2015, partially explaining the discrepancies in Figure 2.
@@ -184,16 +181,14 @@ observations.
 The following plot shows cloud cover observations as well as
 one-hour-out forecasts for a very cloudy start to autumn in Colorado. It is clear that cloud cover observations and forecasts, even those only one hour out, differ quite a bit.
 
-{% include image.html url="/images/solar_image8.png" 
-description= "Figure 5: Comparison of Dark Sky observation and 1 hour out forecast during cloudy week in September 2017" %}
+{% include image.html url="/images/solar_image8.png" description= "Figure 5: Comparison of Dark Sky observation and 1 hour out forecast during cloudy week in September 2017" %}
 
 If we expand the range of dates from when we started to pull data
 (around August 18, 2017 to September 27, 2017), we can observe the
 distribution of forecast error by forecast horizon:
 
 
-{% include image.html url="/images/solar_image9.png" 
-description= "Figure 6: Distribution of Cloud Cover Forecast Error by
+{% include image.html url="/images/solar_image9.png" description= "Figure 6: Distribution of Cloud Cover Forecast Error by
 Forecast Horizon" %}
 
 It appears cloud cover forecasts increase in reliability at around 72
@@ -204,8 +199,7 @@ It is not possible to verify the accuracy of Dark Sky’s cloud cover
 observations with the data available. However, in the last 5 weeks we
 did not observe 0.31 appearing as frequently and values above 0.5 appear much more often (16.5%) than they did in 2015:
 
-{% include image.html url="/images/solar_image10.png" 
-description= "Figure 7: Histogram of Dark Sky cloud cover observations in August/September 2017" %}
+{% include image.html url="/images/solar_image10.png" description= "Figure 7: Histogram of Dark Sky cloud cover observations in August/September 2017" %}
 
 It is unfortunate the NSRDB does not report data for more recent time
 periods, as it would be useful to compare more recent Dark Sky cloud
