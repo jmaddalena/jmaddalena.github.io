@@ -17,7 +17,7 @@ utility. Using a utility’s latitude and longitude, along with date and
 time, we can obtain reasonable forecasts of clear sky GHI, a measure of solar irradiance. In conjunction with cloud cover and the number of
 controlled premises with solar systems, we can use the following formula to create an estimate of solar generation:
 
-$$Generation(kW)=units⋅5kW⋅\frac{GHI_{clearsky}(W/m2)}{1000(W/m2)}⋅[1−0.8⋅cloudCover]$$
+\\[ Generation(kW)=units⋅5kW⋅\frac{GHI_{clearsky}(W/m2)}{1000(W/m2)}⋅[1−0.8⋅cloudCover] \\]
 
 Further explanation and pitfalls of this model are explored and
 discussed later in this post.
@@ -130,8 +130,9 @@ We only examine correlation for the hours between sunrise and sunset
 (when solar zenith angle < 90 degrees). The following plots show the
 relationship between estimated GHI (after incorporating cloud cover) and observed GHI, colored by hour of day and month of year:
 
-{% include image.html url="/images/solar_image4.png" 
-description= "Figure 1: Scatter plots of forecasted versus true GHI, colored by time of day and month of year" %}
+{% include image.html url="/images/solar_image4.png"}
+
+*Figure 1: Scatter plots of forecasted versus true GHI, colored by time of day and month of year* 
 
 The high concentration of points lying above the line of concordance
 implies that in these cases, the calculation of GHI slightly
@@ -149,8 +150,9 @@ the Very Simple Clear Sky models:
 
 While we would not be able to recreate the PSM model and derive perfect correlations, it appears we should be able to better predict true GHI with the addition of more cloud cover information, as evidenced by the following scatter plots:
 
-{% include image.html url="/images/solar_image5.png" 
-description= "Figure 2: Scatter plots of forecasted versus true GHI, colored by cloud type (NSRDB) and cloud cover (Dark Sky)" %}
+{% include image.html url="/images/solar_image5.png" %}
+
+*Figure 2: Scatter plots of forecasted versus true GHI, colored by cloud type (NSRDB) and cloud cover (Dark Sky)*
 
 We can see that Cloud.Type, as utilized by the PSM model and derived
 from NOAA’s PATMOS-x project for cloud algorithms, is much more
@@ -160,13 +162,17 @@ following boxplots, it appears within all the categories of cloud type
 except for “fog”, at least half of the observations were identified as
 0% cloud cover from Dark Sky.
 
-{% include image.html url="/images/solar_image6.png" description= "Figure 3: Boxplots of cloud cover (Dark Sky) by cloud type (NSRDB)" %}
+{% include image.html url="/images/solar_image6.png" %}
+
+*Figure 3: Boxplots of cloud cover (Dark Sky) by cloud type (NSRDB)*
 
 Reliability of Cloud Cover Forecasts The following histogram shows the
 distribution of hourly cloud cover observations in 2015 for our city
 as provided by Dark Sky:
 
-{% include image.html url="/images/solar_image7.png" description= "Figure 4: Histogram of Dark Sky cloud cover observations in 2015" %}
+{% include image.html url="/images/solar_image7.png" %} 
+
+*Figure 4: Histogram of Dark Sky cloud cover observations in 2015*
 
 Because so few hours (1.2%) are reported with cloud cover &gt; 0.5 and
 because we see a value of 0.31 reported an artificially high proportion of the time (8.1%), it seems Dark Sky’s historical observations may not have been reliable in 2015, partially explaining the discrepancies in Figure 2.
@@ -181,15 +187,18 @@ observations.
 The following plot shows cloud cover observations as well as
 one-hour-out forecasts for a very cloudy start to autumn in Colorado. It is clear that cloud cover observations and forecasts, even those only one hour out, differ quite a bit.
 
-{% include image.html url="/images/solar_image8.png" description= "Figure 5: Comparison of Dark Sky observation and 1 hour out forecast during cloudy week in September 2017" %}
+{% include image.html url="/images/solar_image8.png" %}
+
+*Figure 5: Comparison of Dark Sky observation and 1 hour out forecast during cloudy week in September 2017*
 
 If we expand the range of dates from when we started to pull data
 (around August 18, 2017 to September 27, 2017), we can observe the
 distribution of forecast error by forecast horizon:
 
+{% include image.html url="/images/solar_image9.png" %}
 
-{% include image.html url="/images/solar_image9.png" description= "Figure 6: Distribution of Cloud Cover Forecast Error by
-Forecast Horizon" %}
+*Figure 6: Distribution of Cloud Cover Forecast Error by
+Forecast Horizon*
 
 It appears cloud cover forecasts increase in reliability at around 72
 hours out and again at around 12 hours out. In addition, it appears that at least 75% of forecasted values are larger than their resulting
@@ -199,7 +208,9 @@ It is not possible to verify the accuracy of Dark Sky’s cloud cover
 observations with the data available. However, in the last 5 weeks we
 did not observe 0.31 appearing as frequently and values above 0.5 appear much more often (16.5%) than they did in 2015:
 
-{% include image.html url="/images/solar_image10.png" description= "Figure 7: Histogram of Dark Sky cloud cover observations in August/September 2017" %}
+{% include image.html url="/images/solar_image10.png" %}
+
+*Figure 7: Histogram of Dark Sky cloud cover observations in August/September 2017*
 
 It is unfortunate the NSRDB does not report data for more recent time
 periods, as it would be useful to compare more recent Dark Sky cloud
