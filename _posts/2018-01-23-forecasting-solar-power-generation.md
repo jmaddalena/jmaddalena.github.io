@@ -17,7 +17,7 @@ utility. Using a utility’s latitude and longitude, along with date and
 time, we can obtain reasonable forecasts of clear sky GHI, a measure of solar irradiance. In conjunction with cloud cover and the number of
 controlled premises with solar systems, we can use the following formula to create an estimate of solar generation:
 
-$$Generation(kW)=units⋅5kW⋅\frac{GHI_{clearsky}(W/m2)}{1000(W/m2)}⋅[1−0.8⋅cloudCover]$$
+$$Generation(kW)=units⋅5kW⋅\frac{GHI_{clearsky}(W/m^2)}{1000(W/m^2)}⋅[1−0.8⋅cloudCover]$$
 
 Further explanation and pitfalls of this model are explored and
 discussed later in this post.
@@ -48,10 +48,10 @@ irradiance and atmospheric conditions. While sophisticated forecasts of irradian
 
 # Methods of Forecasting Solar Irradiance
 
-**Irradiance** (W/m2) is an instant measure of how much power reaches
+**Irradiance** (W/m^2) is an instant measure of how much power reaches
 the earth from the sun over a fixed area at a specific point in time.
 
-**Insolatin** (kWh/m2) refers to the amount of total energy measured
+**Insolatin** (kWh/m^2) refers to the amount of total energy measured
 over the same fixed area for a specified amount of time.
 
 GHI is a useful measurement of solar irradiance, described as the amount of shortwave radiation recieved from above by a surface horizontal to the ground. It is measured by a horizontal pyranometer and accounts for both of the following measurements:
@@ -229,9 +229,9 @@ PV system
 * Standard design condition of PV system
 * Number of controlled PV systems within a utility
 
-Residential solar systems typically range in reported power output between 2 kW and 10 kW, but the most common system in the U.S. has a power output of 5 kW. A system with this capacity will generate 5 kW of power when irradiance is 1000 W/m2, the standard design condition of PV systems. With the number of solar units within a utility, we can use the following equation to calculate total solar generation at any point in time.
+Residential solar systems typically range in reported power output between 2 kW and 10 kW, but the most common system in the U.S. has a power output of 5 kW. A system with this capacity will generate 5 kW of power when irradiance is 1000 W/m^2, the standard design condition of PV systems. With the number of solar units within a utility, we can use the following equation to calculate total solar generation at any point in time.
 
-$$Generation(kW)=units⋅5kW⋅\frac{GHI(W/m2)}{1000(W/m2)}$$
+$$Generation(kW)=units⋅5kW⋅\frac{GHI(W/m^2)}{1000(W/m^2)}$$
 
 Recall, GHI has already factored in cloud cover:
 
