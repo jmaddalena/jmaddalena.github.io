@@ -1,5 +1,5 @@
 ---
-title: "'Survey of Modern Reinformcent Learning' Talk"
+title: "'Survey of Modern Reinforcement Learning' Talk"
 author: "Julia Maddalena"
 date: 2019-09-18
 categories: ["R"]
