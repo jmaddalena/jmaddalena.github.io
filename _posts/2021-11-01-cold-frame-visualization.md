@@ -17,8 +17,7 @@ Late last summer, I decided to build a cold frame to be able to continue gardeni
 
 I was venting the lid one day and the wind snapped it back and broke it. But because the greens had already grown too tall and would not have survived the winter in the frame (as any leaves touching the lid would have gotten damaged by frost) I decided to replace the lid with a low tunnel using electrical conduit and greenhouse plastic. 
 
-![hoop tunnel](/images/hoop_tunnel.jpeg)
-![hoop tunnel daikon](/images/cold_frame_open.jpeg)
+![hoop tunnel daikon](/images/cold_frame_daikon.jpeg)
 
 It really got put to the test the last week of October when we got a big snow storm and temps dropped as low as 5 degrees! I have been recording temps inside the cold frame using a remote sensor and obtained outside temperatures from the DarkSky API.This allowed me to make this infographic to help explain the amazing insulating power of snow, as the cold frame never dropped below freezing during the entire cold snap!
 
