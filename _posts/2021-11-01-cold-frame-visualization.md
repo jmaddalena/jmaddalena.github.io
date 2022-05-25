@@ -9,7 +9,6 @@ output: md_document
 
 Late last summer, I decided to build a cold frame to be able to continue gardening and harvesting home-grown food into the winter. It was a big undertaking for me to buy the cedar boards and assemble them effectively along with the polycarbonate lid, but I really enjoyed the process!
 
-![cold frame construction #1](/images/cold_frame_construction_1.jpeg)
 ![cold frame construction #2](/images/cold_frame_construction_2.jpeg)
 
 ![cold frame closed](/images/cold_frame_closed.jpeg)
