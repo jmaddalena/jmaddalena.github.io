@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-![Me](/images/julia_aspens.jpg){: .center-image }
+![Me](/images/julia_cb_2.jpg){: .center-image }
 
 A childhood desire to become an actuary led me to major in statistics at Cal Poly in San Luis Obispo, CA. During my time there, I passed the first actuarial exam but decided that a career in statistical consulting seemed much more appealing. This change of heart persuaded me to pursue a graduate degree in statistics at UC Santa Barbara. 
 
