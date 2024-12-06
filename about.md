@@ -6,13 +6,12 @@ permalink: /about/
 
 ![Me](/images/julia_cb_2.jpg){: .center-image }
 
-A childhood desire to become an actuary led me to major in statistics at Cal Poly in San Luis Obispo, CA. During my time there, I passed the first actuarial exam but decided that a career in statistical consulting seemed much more appealing. This change of heart persuaded me to pursue a graduate degree in statistics at UC Santa Barbara. 
+I am a statistician turned data scientist with a background that spans healthcare, energy, consulting, and carbon markets. I am passionate about using machine learning to help build technologies working to mitigate climate change and increase sustainability. I subscribe deeply to the philosophy that we should transition to a circular economy to protect existing biodiversity on this planet and leave a better Earth for those who come after us. 
 
-Upon returning home to Denver in 2015, I began working as a statistician and enjoyed my projects and working to help patients. However, I grew suspicious of the trustworthiness of inferential analyses and began hungering for work in predictive analytics. I studied advanced machine learning techniques on the side and was lucky enough to be hired as a data scientist for a demand response software company called Comverge (now Itron) before transitioning to data science consulting with Miner & Kasch (later zData) in early 2019. 
+I believe one of my greatest strengths is my ability to tell compelling stories about data through narrative and data visualization. I demonstrate some of my data storytelling efforts on this blog - I hope you enjoy! 
 
-I began hungering to put my data science skills to work for the greater good and was particularly excited about both carbon tech and agritech. After a patient job search in the first half of 2021, I landed a job as Senior Data Scientist for Cloud Agronomics and starting working on prediction of soil carbon using satellite imagery and machine learning. Upon our successful close of Series A, I was promoted to Lead Data Scientist and feel so lucky to be working on such a stimulating and significant problem. 
+Outside of work, I have many hobbies, including cooking, gardening, permaculture, yoga, hiking, rock climbing, sewing. I have also recently taken to writing, recording and performing music building off my many years of singing and playing piano and ukulele.
 
-During my free time, I enjoy gardening, cooking, running, rock climbing, meditation, yoga, playing ukulele, trying new things, exploring the world, and spending time with my family, friends, and cat Teddy.
 
 ### Contact
 
